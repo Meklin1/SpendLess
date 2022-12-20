@@ -27,7 +27,7 @@
                 <MudMenu Style="position:absolute; top:3%; right:3%;" FullWidth="false" ActivationEvent="@MouseEvent.MouseOver" AnchorOrigin="Origin.BottomCenter" TransformOrigin="Origin.TopRight">
                     <ActivatorContent>
                         <MudChip Icon="@Icons.Material.Filled.Person" Color="Color.Primary">
-                            NAME
+                            @TransactionService.UserName
                         </MudChip>
                     </ActivatorContent>
                     <ChildContent>
@@ -68,6 +68,7 @@
             await TransactionService.GetTransactions();
 
         }
+        TransactionService.GetUserName();
     }
 
     async Task Logout()

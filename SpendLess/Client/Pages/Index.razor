@@ -8,7 +8,7 @@
     <div style="width: 80%; heigth: 70%;">
         <br>
         <br>
-        <h3>Welcome, @userName</h3>
+        <h3>Welcome, @TransactionService.UserName</h3>
         <br>
         <br>
         <MudGrid Class="xs=1">
@@ -78,7 +78,7 @@
     public List<string> CategoriesList;
     public List<double> ExpensesList;
 
-    public string userName;
+    public string userName = "Name";
 
     [Parameter]
     public DateTime? YearMonth
@@ -120,7 +120,6 @@
     {
         TransactionService.TransactionsChanged += ((source, args) => StateHasChanged());
         TransactionService.TransactionsChanged += ((source, args) => OnParametersSetAsync());
-        await TransactionService.GetUserName();
-        userName = TransactionService.UserName;
+        TransactionService.GetUserName();
     }
 }

@@ -8,25 +8,6 @@
 @inject ITransactionService TransactionService
 @inject ISnackBarService SnackBarService
 
-@*<MudGrid>
-    <MudItem xs="12" sm="7">
-        <MudPaper Class="pa-4">
-            <MudForm @bind-IsValid="@success">
-                    <MudTextField @bind-Value="email" T="string" Label="Email" Required="true"
-                                  Validation="@(new Func<string, string?>(AuthService.CheckEmail))"/>
-                    <MudTextField @bind-Value="password" T="string" Label="Password" HelperText="Password must be at least 8 symbols long, it must c    ontain at least 1 digit, 1 uppercase, 1 lowecase letter and a special symbol."
-                                  InputType="InputType.Password"
-                                  Validation="@(new Func<string, string?>(AuthService.CheckPassword))" Required="true"/>
-                    <div class="d-flex align-center justify-space-between">        
-                        <MudButton Href="Register" Variant="Variant.Filled" Color="Color.Primary" Class="ml-auto">Go to registration</MudButton>
-                        <MudButton Variant="Variant.Filled" Color="Color.Primary" Disabled="@(!success)" OnClick="()=>ValidateUser()" Class="ml-auto">Login</MudButton>
-                    </div>
-            </MudForm>   
-        </MudPaper>
-    </MudItem>
-</MudGrid>*@
-
-
 <style>
     * {
         margin: 0;
@@ -168,20 +149,6 @@
                 <input type="checkbox" class="check-box"><span>I agree to the terms & conditions</span>
                 <MudButton Variant="Variant.Filled" Color="Color.Primary" Disabled="@(!success)" OnClick="()=>RegisterAccount(success)" Class="ml-auto; submit-btn">Register</MudButton>
             </MudForm>
-
-@*                        <MudForm @bind-IsValid="@success">
-                    <MudTextField @bind-Value="username" T="string" Label="Your name" Required="true" RequiredError="Your name is required!"/>
-                    <MudTextField @bind-Value="email" T="string" Label="Email" Required="true"
-                                  Validation="@(new Func<string, string?>(AuthService.CheckEmail))"/>
-                    <MudTextField @bind-Value="password" T="string" Label="Password" HelperText="Password must be at least 8 symbols long, it must c    ontain at least 1 digit, 1 uppercase, 1 lowecase letter and a special symbol."
-                                  InputType="InputType.Password"
-                                  Validation="@(new Func<string, string?>(AuthService.CheckPassword))" Required="true"/>
-                    <div class="d-flex align-center justify-space-between">
-                        <MudCheckBox T="bool" Required="true" RequiredError="You must agree" Label="I agree with terms :)"  />
-                        <MudButton  Href = "Login" Variant="Variant.Filled" Color="Color.Primary" Class="ml-auto">Cancel</MudButton>
-                        <MudButton Variant="Variant.Filled" Color="Color.Primary" Disabled="@(!success)" OnClick="()=>RegisterAccount(success)" Class="ml-auto">Register</MudButton>
-                    </div>
-            </MudForm>   *@
         </form>
     </div>
 
