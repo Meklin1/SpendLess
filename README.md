@@ -1,5 +1,8 @@
 # SpendLess
-**University project**  
+**University project**   
+Front-end: Rokas Čebatorius, Danielius Anužas  
+Back-end: Meinardas Klinkovas, Vilius Kucavičius  
+
 A web app for tracking income and expenses, offering monthly statistics to help users reduce spending.
 
 
