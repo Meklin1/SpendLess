@@ -9,3 +9,5 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows,browser
 build_property.RootNamespace = SpendLess.Shared
 build_property.ProjectDir = D:\C#\final\SpendLess\Shared\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

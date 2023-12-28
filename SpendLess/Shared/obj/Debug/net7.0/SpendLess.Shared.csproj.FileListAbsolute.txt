@@ -61,7 +61,6 @@ C:\Users\viliu\Documents\GitHub\SpendLess\SpendLess\Shared\obj\Debug\net7.0\ref\
 D:\C#\final\SpendLess\Shared\bin\Debug\net7.0\SpendLess.Shared.deps.json
 D:\C#\final\SpendLess\Shared\bin\Debug\net7.0\SpendLess.Shared.dll
 D:\C#\final\SpendLess\Shared\bin\Debug\net7.0\SpendLess.Shared.pdb
-D:\C#\final\SpendLess\Shared\obj\Debug\net7.0\SpendLess.Shared.csproj.AssemblyReference.cache
 D:\C#\final\SpendLess\Shared\obj\Debug\net7.0\SpendLess.Shared.GeneratedMSBuildEditorConfig.editorconfig
 D:\C#\final\SpendLess\Shared\obj\Debug\net7.0\SpendLess.Shared.AssemblyInfoInputs.cache
 D:\C#\final\SpendLess\Shared\obj\Debug\net7.0\SpendLess.Shared.AssemblyInfo.cs

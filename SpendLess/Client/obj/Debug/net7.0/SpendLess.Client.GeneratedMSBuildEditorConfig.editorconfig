@@ -1,4 +1,8 @@
 is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
 build_property.TargetFramework = net7.0
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = 
@@ -10,6 +14,8 @@ build_property._SupportedPlatformList = browser
 build_property.RootNamespace = SpendLess.Client
 build_property.RootNamespace = SpendLess.Client
 build_property.ProjectDir = D:\C#\final\SpendLess\Client\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
@@ -18,10 +24,6 @@ build_property._RazorSourceGeneratorDebug =
 
 [D:/C\#/final/SpendLess/Client/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/C\#/final/SpendLess/Client/Login1.razor]
-build_metadata.AdditionalFiles.TargetPath = TG9naW4xLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/C\#/final/SpendLess/Client/Pages/Goals.razor]
@@ -38,10 +40,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/C\#/final/SpendLess/Client/Pages/Profile.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZmlsZS5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/C\#/final/SpendLess/Client/Pages/Register.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/C\#/final/SpendLess/Client/Pages/Stats.razor]

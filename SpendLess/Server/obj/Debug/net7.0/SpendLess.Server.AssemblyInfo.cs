@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SpendLess.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+384a582f995dc5b8926d2b78ecdbbd1a1e14eafe")]
 [assembly: System.Reflection.AssemblyProductAttribute("SpendLess.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SpendLess.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
